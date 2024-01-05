@@ -48,6 +48,7 @@ def calculate():
 
     # Calculate the CGPA
     cgpa = sum_gpa / total_credits
+    print("changes made ----------\n")
 
     # Display the CGPA in the result label
     result_label.config(text=f"CGPA = {cgpa:.2f}")
